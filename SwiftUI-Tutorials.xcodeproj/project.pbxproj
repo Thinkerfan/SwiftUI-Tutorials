@@ -32,6 +32,7 @@
 		056D5DE0232D236E00E89EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056D5DDF232D236E00E89EDA /* Preview Assets.xcassets */; };
 		056D5DE3232D236E00E89EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056D5DE1232D236E00E89EDA /* LaunchScreen.storyboard */; };
 		058D3657232DAC4E00A4FCB3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D3656232DAC4E00A4FCB3 /* CircleImage.swift */; };
+		058D365C232DB13400A4FCB3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D365B232DB13400A4FCB3 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		056D5DE2232D236E00E89EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		056D5DE4232D236E00E89EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		058D3656232DAC4E00A4FCB3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		058D365B232DB13400A4FCB3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,10 +173,9 @@
 		056D5DD5232D236C00E89EDA /* SwiftUI Essentials */ = {
 			isa = PBXGroup;
 			children = (
+				058D365A232DB0DE00A4FCB3 /* V */,
 				056D5DD6232D236C00E89EDA /* AppDelegate.swift */,
 				056D5DD8232D236C00E89EDA /* SceneDelegate.swift */,
-				056D5DDA232D236C00E89EDA /* ContentView.swift */,
-				058D3656232DAC4E00A4FCB3 /* CircleImage.swift */,
 				056D5DDC232D236E00E89EDA /* Assets.xcassets */,
 				056D5DE1232D236E00E89EDA /* LaunchScreen.storyboard */,
 				056D5DE4232D236E00E89EDA /* Info.plist */,
@@ -189,6 +190,16 @@
 				056D5DDF232D236E00E89EDA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		058D365A232DB0DE00A4FCB3 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				056D5DDA232D236C00E89EDA /* ContentView.swift */,
+				058D3656232DAC4E00A4FCB3 /* CircleImage.swift */,
+				058D365B232DB13400A4FCB3 /* MapView.swift */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 		05D3522A232A800400BBB528 = {
@@ -409,6 +420,7 @@
 			files = (
 				056D5DD7232D236C00E89EDA /* AppDelegate.swift in Sources */,
 				058D3657232DAC4E00A4FCB3 /* CircleImage.swift in Sources */,
+				058D365C232DB13400A4FCB3 /* MapView.swift in Sources */,
 				056D5DD9232D236C00E89EDA /* SceneDelegate.swift in Sources */,
 				056D5DDB232D236C00E89EDA /* ContentView.swift in Sources */,
 			);
