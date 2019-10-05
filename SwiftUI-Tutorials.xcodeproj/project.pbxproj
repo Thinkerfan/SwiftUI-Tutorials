@@ -56,6 +56,7 @@
 		058D365C232DB13400A4FCB3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D365B232DB13400A4FCB3 /* MapView.swift */; };
 		05A149872348E73600B5B719 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A149862348E73600B5B719 /* BadgeBackground.swift */; };
 		05A149892348E78C00B5B719 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A149882348E78C00B5B719 /* BadgeSymbol.swift */; };
+		05A1498B2348E80D00B5B719 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A1498A2348E80D00B5B719 /* RotatedBadgeSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +117,7 @@
 		058D365B232DB13400A4FCB3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		05A149862348E73600B5B719 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		05A149882348E78C00B5B719 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		05A1498A2348E80D00B5B719 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				056636E2234387F900C2A302 /* HexagonParameters.swift */,
 				05A149862348E73600B5B719 /* BadgeBackground.swift */,
 				05A149882348E78C00B5B719 /* BadgeSymbol.swift */,
+				05A1498A2348E80D00B5B719 /* RotatedBadgeSymbol.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 				056636E12343876F00C2A302 /* Badge.swift in Sources */,
 				056D5D8D232D215300E89EDA /* SceneDelegate.swift in Sources */,
 				056D5D8F232D215300E89EDA /* ContentView.swift in Sources */,
+				05A1498B2348E80D00B5B719 /* RotatedBadgeSymbol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
